@@ -9,7 +9,6 @@ async function listContacts() {
     const contacts = JSON.parse(data.toString());
     return contacts;
   } catch (e) {
-    console.log("tyk");
     console.log(e.message);
     return;
   }
@@ -51,7 +50,6 @@ async function addContact(id, name, email, phone) {
   const contact = { id, name, email, phone };
   try {
     await fs.writeFile(contactsPath, JSON.stringify([...contacts, contact]));
-    // return "contact was added";
     return { status: "Contact was added", contact };
   } catch (e) {
     console.log(e.message);
