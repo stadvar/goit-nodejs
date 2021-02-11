@@ -1,3 +1,3 @@
 # goit-nodejs
 
-![hw-01](https://imgur.com/fcm8C30)
+[![hw01.jpg](https://i.postimg.cc/HsvHGwsT/hw01.jpg)](https://postimg.cc/0bShDJw4)
